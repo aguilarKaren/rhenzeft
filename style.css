@@ -1,0 +1,337 @@
+
+body{
+ background-image:url(pics/back.jpg);
+ background-size: cover;
+ height: 80px; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  float:center;
+  width:90%;
+} 
+.logo{
+    height: 20px;
+    width: 100%;
+    float: left;
+    color: white;
+    font-family: Viner Hand ITC;
+    font-size: 50px; 
+    margin-left: 90px;
+    margin-top: 15px;
+}
+.log2{
+     height:10px;
+    width: 100%;
+    float: left;
+    color: white;
+    font-family: Showcard Gothic;
+    font-size: 15px; 
+    margin-left: 150px;
+    margin-top: 35px;
+}
+ .nav{
+   background-color: black;
+   height: 80px;
+   width:100%;
+   text-align: right;
+   margin-top:90px;
+}
+ .nav ul{
+     list-style:none;
+ }
+  .nav ul li{
+     float: right;
+     display:inline; 
+     padding-bottom: 5px;    
+   }
+   .nav a:link, .nav a:visited{
+    color: white;
+     display:inline-block;
+     padding:20px 30px;
+     height:40px; 
+     font-weight: bold;
+     border: 5px cornsilk;
+ }
+
+ .nav .active a:link, .active a.visited{
+     background-color:black; 
+ }
+ 
+ .nav a:hover{
+      color: orange;
+      background-color:black; 
+ } 
+ 
+ a{
+     font-family: Snap ITC;
+     font-size:25px;
+     text-decoration:none;
+     
+ }
+ .nav ul li a{
+     border-radius:30px;
+     -moz-border-radius:30px;
+     -webkit-border-radius:30px;
+ }
+ 
+/* Fading animation
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.5s;
+  animation-name: fade;
+  animation-duration: 3.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size 
+@media only screen and (max-width: 300px) {
+  .text {font-size: 20px} */
+
+.mySlides {
+    display:none
+    table-column-group color;
+    }
+.demo {
+    cursor:pointer
+    
+    }
+ .wrapper{
+    margin-top:30px;
+    margin-left:150px; 
+    height: 400px;
+    width: 70%;
+}
+
+.image{
+    margin-top: 40px;
+    font-size: 40px;
+    text-align: center;
+    height:350px;
+    width:40%;
+    float:left;
+    margin-left:10px;
+    background-image: url(pics/home.jpg);
+    background-size: cover;
+    border-radius: 200px;
+    margin-bottom: auto;
+    
+}
+.signature {
+  color: dimgray;
+  font-family: 'Bradley Hand ITC';
+  text-align: left;
+  font-size: 35px;
+  margin-top: 310px;
+  width: 53%;
+}
+.signature2{
+    background-color: gray;
+    height: 1%;
+    margin-top: auto;
+    width: 50%; 
+    margin-bottom: 50px;
+}
+.welcome{
+    background-color: black;
+    margin-top: auto;
+    font-family:Showcard Gothic;
+    text-align: left;
+    height:300px;
+    width:55%;
+    margin-right: auto;
+    float:right;
+    color: white; 
+}
+.footer2{
+   background-color: black;
+    border-radius: 30px;
+    border: 8px;
+    color: gray;
+    height: 50%;
+    width: 260px;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 180px;    
+}
+.footer3{
+ background-color: black;
+    border-radius: 30px;
+    border: 8px;
+    color: gray;
+    height: 50%;
+    width: 260px;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 250px;
+    
+}
+
+.footer4{
+    background-color: black;
+    border-radius: 30px;
+    border: 8px;
+    color: gray;
+    height: 50%;
+    width: 260px;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 250px;
+    
+}
+div.img {
+    margin: 10px;
+    border: 2px solid #ccc;
+    float: left;
+    width: 150px;
+    height: auto;
+    background-color: black;
+    text-align: center;
+    font-size: 10px;
+    
+}
+
+div.img:hover {
+    border: 2px solid cornflowerblue ;
+}
+
+div.img img {
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    margin-bottom: auto;  
+     
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+}
+.about{
+    color: white;
+    font-family: Showcard Gothic;
+    width: 100%;
+    font-size: 45px;
+    float: left;
+    width: 65%;
+    height: 100px;
+    margin-right: 35px;
+}
+.about2{
+    background-color: gray;
+    width: 31%;
+    height: 82%;
+    margin-top: 10px;
+    margin-bottom: auto;
+    margin-left: auto;
+    float: left;
+    text-align: center;
+    font-size: 13px; 
+}
+
+.contact{
+    color: white;
+    font-family: Showcard Gothic;
+    width: 100%;
+    font-size: 45px;
+    float: left;
+    height: 100px;
+    margin-right: 35px;
+    margin-bottom: 20px;
+}
+.contact1 p {
+    float: left;
+}
+.contact1 iframe {
+    height: 100px;
+    width: 50%;
+    float: right;
+}
+.info{
+    text-decoration-line: line-through;
+    margin-top: 20px;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/*
+.img{
+    background-color: transparent;
+    border: 10px;
+    width: 30%;
+    height: 20%;
+    margin-right: 10px;
+}
+*/
+
+.form{
+  margin-top: 20px;
+    height: 300px;
+    width:40%;
+    float:left; 
+}
+.map{ 
+     margin-top: 20px;
+    height: 300px;
+    width:60%;
+    float:right; 
+}
+.form-box{
+   
+    height: 300px;
+    width:100%;
+    float:left; 
+    
+}
+.footer7{
+    background-color: black;
+    border-radius: 30px;
+    border: 8px;
+    color: gray;
+    height: 10%;
+    width: 260px;
+    font-size: 10px;
+    text-align: center;
+    margin: 20%;
+    margin-top: 420px;
+    margin-left: 200px;
+    margin-bottom: auto;
+    
+}
+.mygallery{
+    color: white;
+    font-family: Showcard Gothic;
+    width: 100%;
+    font-size: 45px;
+
+    float: left;
+    width: 65%;
+    height: 100px;
+    margin-right: 35px;
+}
+.footergallery{
+    background-color: black;
+    border-radius: 30px;
+    border: 8px;
+    color: gray;
+    height: 50%;
+    width: 260px;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 180px;
+    
+}
